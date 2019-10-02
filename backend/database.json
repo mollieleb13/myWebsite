@@ -1,0 +1,12 @@
+{
+    "Users": [
+        {"username":"Mollie", "password": "password1"},
+        {"username":"Sam", "password": "password2"},
+        {"username":"Thomas", "password": "password3"},
+        {"username":"Alli", "password": "password4"},
+        {"username":"Mike", "password": "password5"},
+        {"username":"Kayhan", "password": "password6"},
+        {"username":"John", "password": "password7"}
+    ]
+}
+
