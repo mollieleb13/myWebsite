@@ -3,7 +3,7 @@ var path = require('path');      // your package.json, as well as anything else 
 var app = express();
 app.use(express.static('../public/'));
 
-var config = require('./database.json');
+var database = require('./database.json');
 // Don't change anything above this line unless you know what it will do
 app.get('/',function(req,res){
     res.sendFile(path.join(__dirname + '/index.html'));
@@ -15,11 +15,11 @@ app.get('/users/:username/:password',function(req,res){
     var userEntryPassword = req.params.password;
 
     // For Loop to search json file if user data is correct.
-    for(i= 0; i<config.Users.length; i++){
+    for(i= 0; i<database.Users.length; i++){
         // If Else Statement to determine if username is correct with message else displays no user yet message
-        if (config.Users[i].username === userEntryName) {
+        if (database.Users[i].username === userEntryName) {
             // If Else Statement to determine if password is correct with message else displays password incorrect message
-            if (config.Users[i].password === userEntryPassword) {
+            if (database.Users[i].password === userEntryPassword) {
                 var messageToUser = "Login is correct. Thank you. You are awesome."; break
             } else {
                var messageToUser = "Your password is incorrect. Please try again. Almost awesome."; break

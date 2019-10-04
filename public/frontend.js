@@ -6,6 +6,7 @@
 var httpGet = function(theUrl)
 {
     console.log(theUrl);
+    
     var xmlHttp = new XMLHttpRequest();
     xmlHttp.onreadystatechange = function() { 
         console.log(xmlHttp.responseText);

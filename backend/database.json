@@ -1,12 +1,12 @@
 {
     "Users": [
-        {"username":"Mollie", "password": "password1"},
-        {"username":"Sam", "password": "password2"},
-        {"username":"Thomas", "password": "password3"},
-        {"username":"Alli", "password": "password4"},
-        {"username":"Mike", "password": "password5"},
-        {"username":"Kayhan", "password": "password6"},
-        {"username":"John", "password": "password7"}
+        {"username":"mollieleb", "password": "password1"},
+        {"username":"sam123", "password": "password2"},
+        {"username":"Thomas89", "password": "password3"},
+        {"username":"AlliJohn", "password": "password4"},
+        {"username":"MikeTrev", "password": "password5"},
+        {"username":"KayhanCali", "password": "password6"},
+        {"username":"JohnProf", "password": "password7"}
     ]
 }
 
